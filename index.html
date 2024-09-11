@@ -6,13 +6,18 @@
     <title>Document</title>
     <link rel="stylesheet"  href="assets/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Mukta:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+<style>
         *{
             margin: 0px;
             padding: 0px;
         }
         
          body{
+          font-family: 'suse';
+          overflow-x: hidden;
             height: 100vh;
             width: 100vw;
             display: flex;
@@ -23,6 +28,7 @@
             
          }
          .section1{
+          /* position:sticky; */
             width: 70%;
             height: 80vh;
             display: flex;
@@ -98,7 +104,10 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
          .section5{
           height: 80%;
             width: 70%;
-            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
          }
          .section5 li{
             list-style: square;
@@ -245,7 +254,7 @@ icon3:hover::before {
 <body>
     <div class="section1 ccolor">
         <div class="profile-img">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfdTT9eH7KU0t6Xqo8YwG-5gb3gXUzjkGLaw&s" alt="cat" height="200px" class="profile-img1">
+            <img src="./assets/img/pic1.jpg" alt="boooo" height="200px" class="profile-img1">
         </div>
         <div class="profile-data">
             <h1>Hans Rohit</h1>
@@ -254,52 +263,51 @@ icon3:hover::before {
     </div> 
     <div class="section2">
         <div class="description">
-            <h1 class="cccolor">
+            <h2 class="cccolor">
                 OBJECTIVE
-            </h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nihil debitis, voluptates est doloremque vel in, eaque, quae corporis error quasi dignissimos nulla corrupti aperiam rem dolorem maxime excepturi ipsa!</p>
+            </h2>
+            <p>To leverage my expertise in front-end development, database management, and emerging technologies to create user-friendly, efficient, and scalable applications. I aim to continually improve my skills, adapt to industry trends, and contribute innovative solutions that drive business success. Passionate about coding, collaboration, and delivering quality software that meets user needs.</p>
         </div>
     </div>  
     
     <div class="section3">
-        <h1 class="title cccolor">
-            EDUCATION</h1>
+        <h2 class="title cccolor">
+            EDUCATION</h2>
         </div>
         <table class="ed-table">
             <tr>
-                <th>Degree</th>
+                <th>Qualification</th>
                 <th>Campus</th>
                 <th>Score</th>
             </tr>
             <tr>
-                <td>deg1</td>
-                <td>siet</td>
-                <td>85%</td>
+                <td>HSC</td>
+                <td>NMC, VELLALORE</td>
+                <td>88%</td>
             </tr>
             <tr>
-                <td>deg2</td>
-                <td>siet</td>
-                <td>85%</td>
+                <td>I-YEAR</td>
+                <td>SIET</td>
+                <td>75%</td>
             </tr>
             <tr>
-                <td>deg2</td>
-                <td>siet</td>
-                <td>85%</td>
+                <td>II-YEAR</td>
+                <td>SIET</td>
+                <td>76%</td>
             </tr>
         </table>
     </div>
     
     <div class="section4">
-        <h1 class="cccolor">INTERNSHIPS</h1>
+        <h2 class="cccolor">INTERNSHIPS</h2>
        
-        <span class="spanstyle cccolor"><h3>Software Developer</h3></span>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, possimus omnis delectus aliquid eos excepturi similique accusantium, esse iste praesentium nisi illum magnam dolorem ut veritatis vel quos? Assumenda, dolore!</p>
-        <br>
-        <p><span class="spanstyle2 cccolor"><b>tcs pvt ltd </b></span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, ea. Iste harum quis dicta iure optio eum cumque quibusdam impedit perferendis minus maiores minima vero, exercitationem expedita libero ab iusto?</p>
-    </div>
+        <p><h3><span class="spanstyle cccolor">CodeSoft</span></h3>
+          During my internship at Codsoft as a front-end developer, I contributed to designing and developing responsive web pages using HTML, CSS, and JavaScript. I collaborated with senior developers to implement user-friendly UI components and optimize website performance. This experience enhanced my skills in modern web technologies and problem-solving.</p>
+          <br>
+        <p><span class="spanstyle2 cccolor"><b>Apex technologies: </b></span>A web developer intern at Apex Technologies, I was responsible for building and maintaining dynamic websites using HTML, CSS, JavaScript, and React.js. I collaborated with cross-functional teams to enhance user interfaces and optimize web performance. This role allowed me to refine my coding skills and gain hands-on experience in real-world projects.</p>
+      </div>
     <div class="section5">
-        <h1 class="cccolor">Skills</h1>
-        
+        <h2 class="cccolor">SKILLS</h2>
         <ul>
             <li>Java</li>
             <li>Python</li>
@@ -310,7 +318,7 @@ icon3:hover::before {
         <a href="tel:+9080867217">
         <!-- <i class="fa fa-phone-square icon-style" aria-hidden="true"></i> -->
         <button class="button1">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" viewBox="0 0 32 32" height="32" fill="none" class="svg-icon"><path stroke-width="2" stroke-linecap="round" stroke="#fff" fill-rule="evenodd" d="m24.8868 19.1288c-1.0274-.1308-2.036-.3815-3.0052-.7467-.7878-.29-1.6724-.1034-2.276.48-.797.8075-2.0493.9936-2.9664.3258-1.4484-1.055-2.7233-2.3295-3.7783-3.7776-.6681-.9168-.4819-2.1691.3255-2.9659.5728-.6019.7584-1.4748.4802-2.2577-.3987-.98875-.6792-2.02109-.8358-3.07557-.2043-1.03534-1.1138-1.7807-2.1694-1.77778h-3.18289c-.60654-.00074-1.18614.25037-1.60035.69334-.40152.44503-.59539 1.03943-.53345 1.63555.344 3.31056 1.47164 6.49166 3.28961 9.27986 1.64878 2.5904 3.84608 4.7872 6.43688 6.4356 2.7927 1.797 5.9636 2.9227 9.2644 3.289h.1778c.5409.0036 1.0626-.2 1.4581-.569.444-.406.6957-.9806.6935-1.5822v-3.1821c.0429-1.0763-.7171-2.0185-1.7782-2.2046z" clip-rule="evenodd"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" viewBox="0 0 32 32" height="22" fill="none" class="svg-icon"><path stroke-width="2" stroke-linecap="round" stroke="#fff" fill-rule="evenodd" d="m24.8868 19.1288c-1.0274-.1308-2.036-.3815-3.0052-.7467-.7878-.29-1.6724-.1034-2.276.48-.797.8075-2.0493.9936-2.9664.3258-1.4484-1.055-2.7233-2.3295-3.7783-3.7776-.6681-.9168-.4819-2.1691.3255-2.9659.5728-.6019.7584-1.4748.4802-2.2577-.3987-.98875-.6792-2.02109-.8358-3.07557-.2043-1.03534-1.1138-1.7807-2.1694-1.77778h-3.18289c-.60654-.00074-1.18614.25037-1.60035.69334-.40152.44503-.59539 1.03943-.53345 1.63555.344 3.31056 1.47164 6.49166 3.28961 9.27986 1.64878 2.5904 3.84608 4.7872 6.43688 6.4356 2.7927 1.797 5.9636 2.9227 9.2644 3.289h.1778c.5409.0036 1.0626-.2 1.4581-.569.444-.406.6957-.9806.6935-1.5822v-3.1821c.0429-1.0763-.7171-2.0185-1.7782-2.2046z" clip-rule="evenodd"></path></svg>
         </button>
     </a>
     <a href="mailto:hansrohit031">
