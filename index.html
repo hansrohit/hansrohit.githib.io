@@ -25,13 +25,14 @@
             justify-content: start;
             align-items: center;
             background-color: #f5f5f5;
-            
+            gap: 0.2rem;
          }
          .section1{
-          /* position:sticky; */
+          /* position: relative; */
             width: 70%;
-            height: 80vh;
+            /* height: 80vh; */
             display: flex;
+            flex-direction: row;
             justify-content: space-around;
             align-items: center;
             border-radius: 5px;
@@ -49,26 +50,38 @@
             border-collapse: collapse;
             width: 70vw;
             height: 30vh;
-            border-radius: 5px;
+            /* border-radius: 5px; */
+            /* display: flex; */
+            /* flex-direction: row; */
          }
          .profile-data{
             color: rgb(177, 193, 208);
          }
          td,th{
             border: 1px solid #000;
-            padding: 1rem 1rem 1rem 1rem;
+            text-align: center;
+            /* padding: 1rem 1rem 1rem 1rem; */
          }
          .section2{
+          /* border: 2px solid #000; */
             width: 70%;
-            height: 80%;
+            /* height: 80%; */
+            display: flex;
+            flex-direction: column;
          }
          .section3{
-          height: 80%;
+          /* border: 2px solid #000; */
+          /* height: 80%; */
             width: 70%;
+            display: flex;
+            flex-direction: column;
          }
          .section4{
-          height: 80%;
+          /* border: 2px solid #000; */
+          /* height: 80%; */
             width: 70%;
+            display: flex;
+            flex-direction: column;
          }
          .profile-img{
             height: 150px;
@@ -102,7 +115,8 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
             color: #780206;
          }
          .section5{
-          height: 80%;
+          /* border: 2px solid #000; */
+          /* height: 80%; */
             width: 70%;
             display: flex;
             flex-direction: column;
@@ -119,7 +133,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 4rem;
+            gap: 3rem;
             border-radius: 5px;
          }
          .icon-style{
@@ -273,7 +287,6 @@ icon3:hover::before {
     <div class="section3">
         <h2 class="title cccolor">
             EDUCATION</h2>
-        </div>
         <table class="ed-table">
             <tr>
                 <th>Qualification</th>
@@ -297,13 +310,14 @@ icon3:hover::before {
             </tr>
         </table>
     </div>
+  </div>
     
     <div class="section4">
         <h2 class="cccolor">INTERNSHIPS</h2>
        
         <p><h3><span class="spanstyle cccolor">CodeSoft</span></h3>
           During my internship at Codsoft as a front-end developer, I contributed to designing and developing responsive web pages using HTML, CSS, and JavaScript. I collaborated with senior developers to implement user-friendly UI components and optimize website performance. This experience enhanced my skills in modern web technologies and problem-solving.</p>
-          <br>
+          
         <p><span class="spanstyle2 cccolor"><b>Apex technologies: </b></span>A web developer intern at Apex Technologies, I was responsible for building and maintaining dynamic websites using HTML, CSS, JavaScript, and React.js. I collaborated with cross-functional teams to enhance user interfaces and optimize web performance. This role allowed me to refine my coding skills and gain hands-on experience in real-world projects.</p>
       </div>
     <div class="section5">
